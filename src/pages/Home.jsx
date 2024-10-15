@@ -1,12 +1,11 @@
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import ServiceInfo from "../components/ServiceInfo";
-
+import Header from "../layouts/Header";
 import Client from "../components/Client";
 import { useEffect, useState } from "react";
 import GetInfoRequest from "../utils/GetInfoRequest";
 import { ClipLoader } from "react-spinners"; // Import the spinner
-
 const Home = () => {
   const [data, setData] = useState(null); // Start with null
   const [loading, setLoading] = useState(true);
