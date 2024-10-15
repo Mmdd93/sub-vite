@@ -17,7 +17,7 @@ const Header = () => {
       </Container>
       <div className="justify-content-center d-flex pt-1 pb-5 title">
         <span className="text-span">{"!"}</span>
-        <h1>{"به پنل کاربری خوش آمدید"}</h1>
+        <h1>{"خوش آمدید"}</h1>
       </div>
     </>
   );
